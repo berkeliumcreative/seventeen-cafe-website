@@ -78,7 +78,13 @@ export default function Page() {
 
       <section className="py-20 md:py-28">
         <SectionHeading title="What People Are Saying" />
-        <TestimonialMarquee reviews={content.reviews || []} />
+        <TestimonialMarquee
+          testimonials={content.reviews?.map((r: any) => ({
+            quote: r.text,
+            author: r.name,
+            rating: r.rating,
+          })) || []}
+        />
       </section>
 
       <section className="max-w-5xl mx-auto px-6 py-20 md:py-28 grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
@@ -92,7 +98,7 @@ export default function Page() {
 
       <PhoneCTA
         heading="Ready for Great Coffee?"
-        subheading="Call ahead or just walk in — we'd love to see you."
+        subheading="Call ahead or just walk in — we would love to see you."
         phone={content.contact.phone}
       />
 
