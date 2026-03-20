@@ -6,7 +6,7 @@
     "subheading": "Handcrafted coffee, fresh pastries, and a warm neighborhood vibe — right on San Fernando Road.",
     "ctaText": "View Our Menu",
     "ctaLink": "#menu",
-    "backgroundImage": "/images/hero-bg.jpg"
+    "backgroundImage": "https://places.googleapis.com/v1/places/ChIJqYJjJFCUwoARhEqRuyLeEnc/photos/ATCDNfVxzkfi9lbjKc_tg1up85QMwEfOaRd4AD90AuS4wikb7PjQ83XzAdJxc7AVrvnfmVu5hIqB2Tso1SUTB7Tnz-BAwUQbh8H-jv6rPEDd5gWHB8SlqBkElaJThEhOU-QQz5N7GA1B9iWRRbzP8TiPGixPb98YWsX0sztZIS5-xVTwf1e-uqiBmb3qD9w7pNUk1c494sPh4mNpZ-iPlBgi3YNbVC66rAsP86uFNaVhVRJVpH21KJ9aQa0kcgZoi11KnnZ21hC5Rmudx6eT1pMW3MgStvbIn-ityew2xMiht4JePg/media?maxWidthPx=1200&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro"
   },
   "about": {
     "heading": "Welcome to Seventeen",
@@ -85,5 +85,34 @@
     "primaryColor": "#fff8f0",
     "accentColor": "#c2410c",
     "fontFamily": "playful"
+  },
+  "gallery": {
+    "heading": "Gallery",
+    "images": [
+      {
+        "src": "https://places.googleapis.com/v1/places/ChIJqYJjJFCUwoARhEqRuyLeEnc/photos/ATCDNfWAdqKvJjmKvPT1nIoW3fvvUe-WQpy97ncGCxt_9f86ESQ2mXgwvfeJC4VRygLvYUrhxJ5e0b0M5Z9HiSyLLSAzpmiz_oPHgBRCWggZD8eCc9Yc-dobV7JxWOBvjDe67-AgIAf2_Y8pUUgnIKXs6D8pHwo0pUHNjL5bK7zSDnCGZMI6Qx2SQlG7mMamN2XGyiiyHaML5r_EpIDFwUnfneRxMIfeAzO3bhyQvyYxDLwE6V6qwk3zaG_cegMQBaUNeXoMGLlXqc7kLcFzL8VlkqxvKdX40r6R0W37tc3yjL3GdA/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro",
+        "alt": "seventeen cafe photo 1"
+      },
+      {
+        "src": "https://places.googleapis.com/v1/places/ChIJqYJjJFCUwoARhEqRuyLeEnc/photos/ATCDNfWUiooBdUtOo06cST38PFCQ3doZLJjvNBpqomWsCHc2kf8WTx81TmByNlwJrDlvC40EStxAY47JnhE6b5PvrQz8o0EoeLeOcanepYq_khR8IB-uhzhJlJZaz8Lh4bFpvUmn0WFMbwLOnBFjRqppNjvZduv_AaVh3jcih2flxLVoePvkrXiI_bUzNEjXNVO4HOoKFvGVrjqgjuZrh1ZRD2Cn5NezQEic5R-sT_gDHfQvlev79I1QYunvf07TLb3iLbdQljv0PrYXT5NtsQaDAbdTKrWtEvqJk2LD5rR8_MAbAK6qLrCUyDtlQsuJfwo6WBdmam4gG8d0jReCGuAuANnXhEzBPGHaiosKbe5ZCUlh60BVVdEFeECufK97U9Jj7Hvihqo-egOHmmja3d-k7fHrkY9B49OCi3N33QzkBlt3qrod/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro",
+        "alt": "seventeen cafe photo 2"
+      },
+      {
+        "src": "https://places.googleapis.com/v1/places/ChIJqYJjJFCUwoARhEqRuyLeEnc/photos/ATCDNfWyuBcE5nuv1IX2kVz9e4Vx0XUaSAVfCXxyj3vytAVwPy_K7HpoyACP7x_2sDi5ljQk3PQKHhh22pJ3iVg6UGRTY_2g07fbLNnrGkFf-kruqgRmM-uwQ6EPJwTiRqjYcA-XUm5x81QFUca4z1-0yCn8MOAlTKQ-glU5FYbCliYeRaqUgarzBlMcwex98NP40sAo59ZNu0yIITGY4tSpSbibeOkLvynfvqUmLT96AXnxqwkhJYK-fB_yLOoX8GbXQ80QS_b9gr74FcbOsbiqWqhudoDhiEFqpvHz5pDssDEkX0_68WnCyNmxJQgAMhEEbqC424QTdSYXyWk_n6IWh_I5lRcgafUe25GP2wekc9oS7ylt1-yLCpVuCfNvW3lcjxAlFKWuvxiXzIWJKNP5fmisfKP6ZBe6ak5yD0cF1vKRax4/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro",
+        "alt": "seventeen cafe photo 3"
+      },
+      {
+        "src": "https://places.googleapis.com/v1/places/ChIJqYJjJFCUwoARhEqRuyLeEnc/photos/ATCDNfXe_v4vr4bwAu5gYzNOk0JRIXE4EY1meEHJqeMQoQzDWU7u8UCRi1zsiIEUo4WhFGsaDXAevT7krE4z-O47qb8wql2QZppvYS9lRLLW9bKElkxcVpkrxg2GfcA-K42z21FySCUNkP_N6lHrb6ArhcyCzX5YuY7_p8h6mwerHD4y1NxC8chLwWyhsjHh7o7DXtexrzcGP0eUM3pky0xGbzIcmts-YuxAgv5qnh2b8wStLQNTQPxZKk2Ek7WzxqNcl-kckPWS9FxfQjW9vD5jBQOXarOu3eaWusZ88HR3un0BCG8UCkg0q84OxKBkwcb4Vu1QBh0Yn-agvwlEZL0LLgY98gDN94SHC6ccyV_1hxzNkmugJ0bx_rb_BFCCU9C3JDKvuTxSfu-G4E__kZ5u01rvKgqbHgZ-SSGnfh5M8YfL97Kzzf_w3Adb9diSzA/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro",
+        "alt": "seventeen cafe photo 4"
+      },
+      {
+        "src": "https://places.googleapis.com/v1/places/ChIJqYJjJFCUwoARhEqRuyLeEnc/photos/ATCDNfWr1WR0U2cSFpYgU1I3yHCjlyGxcl5mGrWaTjBiel_GUuISBBCORV69e9ii-vX4ktmhyjpfx2HkB0mQypCha_IxB_NvYcaX_xjhSwlKTRJYWg-P4Jg6KW4qq-YTIcC5K9yT67IZyCSmPOiZGKz1sTGx1fk5-wf4v9QAta0m76GUXUbZar5AID8zWcbdY5igsrBPYeHQkoyv0V849tb2ygYI9Zbwqlb659qlAEmOfuiu6l5iaQ0Za-6NOnCWV7XWpWCWS5l9SwN4gtwbZe_fEctR8v76zGJcHuMIV6Bur-nWak2tog7Plz1BgyL-S_6KqFA-oABJIxWQ6uw7STDhkX8hOS1yY26IHcmhfHMJiCPJYqufuuEXwmZ44Eyeh8-adBbc2-GE4usSAHLzRSIFGc-kp5cCU_cuvVE0R4w17to/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro",
+        "alt": "seventeen cafe photo 5"
+      },
+      {
+        "src": "https://places.googleapis.com/v1/places/ChIJqYJjJFCUwoARhEqRuyLeEnc/photos/ATCDNfXQkcTXzcrrw0TMNKndgTg7s_7gFb3S7U5Rq-oY2NGb_vfZZWwDiYCpnRlEIySvZhVD2l-GTgrDgWzEJDf_oEqEjSBhQCA0SweAbP67R5kGANSUb9MQvjxJUeLlr2fMT0IH_qOldp0HzcIgpw9XHGE6y0SdhACkj8WVIB0i1sxLb6wExUXgtjj930jFQ07lqULILd--CtM1Rsketj8qeEbWW7Y39vxsvTuerKEfMVxtl3qVoLN-0fsi6bsF1ZcaC3iVWlQ-4OFPJAZAoZV0y8Fm6PbY_atJzw__4j6Vhs5KEA/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro",
+        "alt": "seventeen cafe photo 6"
+      }
+    ]
   }
 }
