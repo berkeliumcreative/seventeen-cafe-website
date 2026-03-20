@@ -1,47 +1,89 @@
 {
-  "businessName": "Sample Business",
-  "tagline": "Quality Service You Can Trust",
+  "businessName": "Seventeen Cafe",
+  "tagline": "Your Neighborhood Coffee Escape in Sun Valley",
   "hero": {
-    "heading": "Welcome to Our Business",
-    "subheading": "Professional service in your area.",
-    "ctaText": "Contact Us",
-    "ctaLink": "#contact"
+    "heading": "Start Your Morning Right",
+    "subheading": "Handcrafted coffee, fresh pastries, and a warm neighborhood vibe — right on San Fernando Road.",
+    "ctaText": "View Our Menu",
+    "ctaLink": "#menu",
+    "backgroundImage": "/images/hero-bg.jpg"
   },
   "about": {
-    "heading": "About Us",
+    "heading": "Welcome to Seventeen",
     "paragraphs": [
-      "We are a local business dedicated to providing quality service.",
-      "Our team has years of experience and we take pride in our work."
+      "Seventeen Cafe is Sun Valley's go-to spot for artisan coffee and homemade bites. We believe great mornings start with great coffee — and we've been crafting the perfect cup for our community, one pour at a time.",
+      "From rich espresso drinks to refreshing cold brews, everything on our menu is made with care using locally roasted beans. Drop by for a quick pick-me-up or settle in with a book — you're always welcome here."
     ]
   },
   "services": [
-    { "title": "Service One", "description": "Professional service with attention to detail.", "icon": "star" },
-    { "title": "Service Two", "description": "Quality work at competitive prices.", "icon": "award" },
-    { "title": "Service Three", "description": "Fast, reliable, and thorough.", "icon": "check" }
+    {
+      "title": "Espresso & Lattes",
+      "description": "Classic shots, silky lattes, and flavored espresso drinks made with freshly roasted beans. Try our signature vanilla oat milk latte — a customer favorite.",
+      "icon": "Coffee"
+    },
+    {
+      "title": "Cold Brew & Iced Drinks",
+      "description": "Slow-steeped cold brew served over ice, plus refreshing iced teas and seasonal fruit blends. Perfect for those warm Sun Valley afternoons.",
+      "icon": "GlassWater"
+    },
+    {
+      "title": "Fresh Pastries & Bites",
+      "description": "Flaky croissants, buttery muffins, and hearty breakfast sandwiches baked fresh every morning. Pair with any coffee for the ultimate breakfast combo.",
+      "icon": "Croissant"
+    },
+    {
+      "title": "Specialty Drinks",
+      "description": "Matcha lattes, chai tea, hot chocolate, and rotating seasonal specials. There's always something new to try at Seventeen.",
+      "icon": "Sparkles"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Maria G.",
+      "text": "Best coffee in Sun Valley, hands down. The staff is always friendly and the lattes are perfect every time.",
+      "rating": 5
+    },
+    {
+      "name": "David R.",
+      "text": "Love this little cafe! Great vibes, solid espresso, and the pastries are always fresh. My go-to morning spot.",
+      "rating": 5
+    },
+    {
+      "name": "Sarah K.",
+      "text": "Such a cozy place to work from. Good Wi-Fi, amazing cold brew, and they never rush you out. Highly recommend!",
+      "rating": 5
+    }
   ],
   "contact": {
-    "address": "123 Main St, City, ST 12345",
-    "phone": "(555) 123-4567",
-    "email": "info@sample.com",
+    "address": "7734 San Fernando Rd, Sun Valley, CA 91352",
+    "phone": "(747) 223-2900",
+    "email": "hello@seventeencafe.com",
     "hours": {
-      "Monday": "9:00 AM - 5:00 PM",
-      "Tuesday": "9:00 AM - 5:00 PM",
-      "Wednesday": "9:00 AM - 5:00 PM",
-      "Thursday": "9:00 AM - 5:00 PM",
-      "Friday": "9:00 AM - 5:00 PM",
-      "Saturday": "10:00 AM - 3:00 PM",
+      "Monday": "9:00 AM – 4:00 PM",
+      "Tuesday": "9:00 AM – 4:00 PM",
+      "Wednesday": "9:00 AM – 4:00 PM",
+      "Thursday": "9:00 AM – 4:00 PM",
+      "Friday": "9:00 AM – 4:00 PM",
+      "Saturday": "Closed",
       "Sunday": "Closed"
     },
-    "mapEmbedQuery": "123+Main+St+City+ST"
+    "mapEmbedQuery": "Seventeen Cafe, 7734 San Fernando Rd, Sun Valley, CA 91352"
   },
   "seo": {
-    "title": "Sample Business | City, ST",
-    "description": "Sample Business in City, ST. Professional services you can trust.",
-    "keywords": ["sample business", "city ST", "professional services"]
+    "title": "Seventeen Cafe | Artisan Coffee in Sun Valley, CA",
+    "description": "Handcrafted coffee, fresh pastries, and a cozy atmosphere at Seventeen Cafe on San Fernando Road in Sun Valley, California.",
+    "keywords": [
+      "coffee shop sun valley",
+      "cafe sun valley ca",
+      "seventeen cafe",
+      "artisan coffee",
+      "espresso sun valley",
+      "best coffee near me"
+    ]
   },
   "theme": {
-    "primaryColor": "#0a0a0a",
-    "accentColor": "#c8a97e",
-    "fontFamily": "modern"
+    "primaryColor": "#fff8f0",
+    "accentColor": "#c2410c",
+    "fontFamily": "playful"
   }
 }
