@@ -25,8 +25,8 @@ export default function Page() {
         heading={content.hero.heading}
         subheading={content.hero.subheading}
         ctaText={content.hero.ctaText}
-        ctaLink={content.hero.ctaLink}
-        backgroundImage={content.hero.backgroundImage}
+        ctaHref={content.hero.ctaLink}
+        imageSrc={content.hero.backgroundImage}
       />
 
       <StatsSection
