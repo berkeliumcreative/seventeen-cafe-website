@@ -69,12 +69,7 @@ export default function Page() {
         </div>
       </section>
 
-      <PhotoStrip images={[
-        "/images/photo-1.jpg",
-        "/images/photo-2.jpg",
-        "/images/photo-3.jpg",
-        "/images/photo-4.jpg",
-      ]} />
+      {content.gallery && (<section className="py-16"><SectionHeading title={content.gallery.heading} /><div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-6xl mx-auto px-6 mt-8">{content.gallery.images.map((img: any, i: number) => (<BlurFade key={i} delay={0.1 * i}><img src={img.src} alt={img.alt} className="w-full h-64 object-cover rounded-lg" /></BlurFade>))}</div></section>)}
 
       <section className="py-20 md:py-28">
         <SectionHeading title="What People Are Saying" />
